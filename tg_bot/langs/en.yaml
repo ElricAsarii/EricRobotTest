@@ -25,10 +25,10 @@ pm_start_text: |
    
    *Click on help to learn more!*
    
-grp_start_text: "Hi, I'm Kigyo."
+grp_start_text: "Hi, I'm Marin Kitagawa."
 
 pm_help_text: |
-   Hello there! My name is *Kigyo*. A part of *Eagle Union*.
+   Hello there! My name is *Marin Kitagawa*. A part of *Ovanime Indonesia*.
    I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of
    the things I can help you with.
    *Main* commands available:
@@ -40,7 +40,7 @@ pm_help_text: |
       - in a group: will redirect you to pm, with all that chat's settings.
     Click on the buttons below to get documentation about specific modules!
 
-add_bot_to_group_btn: "Add Kigyo"
+add_bot_to_group_btn: "Add Marin Kitagawa"
 support_chat_link_btn: "Support"
 updates_channel_link_btn: "Updates"
 src_btn: "Source code"
@@ -211,7 +211,7 @@ FED_USER_HELP: |
     • `/frules`*:* See Federation regulations
 
 formt_help_bse: |
-    Kigyo supports a large number of formatting options to make your messages more expressive. Take a look!
+    Marin Kitagawa supports a large number of formatting options to make your messages more expressive. Take a look!
 
 md_help: |
     <b>Markdown Formatting</b>
@@ -263,7 +263,7 @@ antispam_help: |
 
      Anti-Spam, used by bot devs to ban spammers across all groups. This helps protect
      you and your groups by removing spam flooders as quickly as possible.
-     *Note:* Users can appeal gbans or report spammers at @YorkTownEagleUnion
+     *Note:* Users can appeal gbans or report spammers at @OvanimeIndonesia
 
      Kigyo also integrates @Spamwatch API to remove Spammers as much as possible from your chatroom!
      *What is SpamWatch?*
@@ -319,7 +319,7 @@ log_help: |
       • forwarding the `/setlog` to the group
 
 markdown_help_text: |
-      Markdown is a very powerful formatting tool supported by telegram. Kigyo has some enhancements, to make sure that
+      Markdown is a very powerful formatting tool supported by telegram. Marin Kitagawa has some enhancements, to make sure that
       saved messages are correctly parsed, and to allow you to create buttons.
 
       - <code>_italic_</code>: wrapping text with '_' will produce italic text
@@ -368,8 +368,8 @@ misc_help: |
       Tired of telegram's stupidity? well here you go
       *Available commands:*
       • /antichannel <on/off>: Bans and deletes anyone who tries to talk as channel and forces em to talk as themselves
-      • /antilinkedchan <on/off>: Makes Kigyo automatically delete linked channel posts from chatroom
-      • /antichannelpin <on/off>: Makes Kigyo automatically unpin linked channel posts from chatroom
+      • /antilinkedchan <on/off>: Makes Marin Kitagawa automatically delete linked channel posts from chatroom
+      • /antichannelpin <on/off>: Makes Marin Kitagawa automatically unpin linked channel posts from chatroom
 
 muting_help: |
       *Admins only:*
@@ -461,7 +461,7 @@ nation_help: |
       - /sardegnas - Lists all Sardegnas Nations.
       - /neptunians - Lists all Neptunia Nations.
       Note: These commands list users with special bot priveleges and can only be used by them.
-      You can visit @YorktownEagleUnion to query more about these.
+      You can visit @OvanimeIndonesia to query more about these.
 
 
 sticker_blacklist_help: |
