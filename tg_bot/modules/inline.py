@@ -64,16 +64,16 @@ def inlinequery(update: Update, _) -> None:
             #    "keyboard": ".spb ",
             #},
             {
-                "title": "Account info on Kigyo",
-                "description": "Look up a Telegram account in Kigyo database",
-                "message_text": "Click the button below to look up a person in Kigyo database using their Telegram ID",
+                "title": "Account info on Marin Kitagawa",
+                "description": "Look up a Telegram account in Marin Kitagawa database",
+                "message_text": "Click the button below to look up a person in Marin Kitagawa database using their Telegram ID",
                 "thumb_urL": "https://telegra.ph/file/c85e07b58f5b3158b529a.jpg",
                 "keyboard": ".info ",
             },
             {
                 "title": "About",
-                "description": "Know about Kigyo",
-                "message_text": "Click the button below to get to know about Kigyo.",
+                "description": "Know about Marin Kitagawa",
+                "message_text": "Click the button below to get to know about Marin Kitagawa.",
                 "thumb_urL": "https://telegra.ph/file/c85e07b58f5b3158b529a.jpg",
                 "keyboard": ".about ",
             },
@@ -182,7 +182,7 @@ def inlineinfo(query: str, update: Update, context: CallbackContext) -> None:
 
 
 
-    kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Report Error", url="https://t.me/YorktownEagleUnion"), InlineKeyboardButton(text="Search again", switch_inline_query_current_chat=".info ",)]])
+    kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Report Error", url="https://t.me/OvanimeIndonesia"), InlineKeyboardButton(text="Search again", switch_inline_query_current_chat=".info ",)]])
 
 
     results = [
@@ -211,7 +211,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     Running on Python {python_version()}
     """
     results: list = []
-    kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Support", url="https://t.me/YorktownEagleUnion"), InlineKeyboardButton(text="Channel", url="https://t.me/KigyoUpdates"), InlineKeyboardButton(text='Ping', callback_data='pingCB')], [InlineKeyboardButton(text="GitLab", url="https://www.gitlab.com/Dank-del/EnterpriseALRobot"), InlineKeyboardButton(text="GitHub", url="https://github.com/AnimeKaizoku/EnterpriseALRobot/",)]])
+    kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Support", url="https://t.me/OvanimeIndonesia"), InlineKeyboardButton(text="Channel", url="https://t.me/Marin_Kitagawa_official"), InlineKeyboardButton(text='Ping', callback_data='pingCB')], [InlineKeyboardButton(text="GitLab", url="https://t.me/eric_asarii"), InlineKeyboardButton(text="GitHub", url="https://t.me/eric_asarii",)]])
 
 
     results.append(
@@ -345,7 +345,7 @@ def media_query(query: str, update: Update, context: CallbackContext) -> None:
                 )
             )
     except Exception as e:
-        kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Report error", url="t.me/YorktownEagleUnion"), InlineKeyboardButton(text="Search again", switch_inline_query_current_chat=".anilist ")]])
+        kb = InlineKeyboardMarkup([[InlineKeyboardButton(text="Report error", url="https://t.me/OvanimeIndonesia"), InlineKeyboardButton(text="Search again", switch_inline_query_current_chat=".anilist ")]])
 
         results.append(InlineQueryResultArticle(id=str(uuid4()), title=f"Media {query} not found", input_message_content=InputTextMessageContent(f"Media {query} not found due to {e}", parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True), reply_markup=kb))
 
